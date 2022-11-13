@@ -20,8 +20,9 @@ header{
     flex-direction: row;
     justify-content: center;
     height: calc(100vh - 65px);
-    background-color: #303030;
+    /* background-color: #303030; */
     color: white;
+    background-image: url("../images/background-about-me.png");
     /* padding-top: 10%; */
 }
 .caja-central{
@@ -85,12 +86,15 @@ header{
 
 .tres{
     background-color: #303030;
-    height: 500px;
+    height: 527px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
     color: #F2F2F2;
+    background-image: url("../images/background-proyects.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 .proyectos{
     width: 60%;
@@ -104,6 +108,7 @@ header{
     border: solid #F2F2F2 1px;
     border-radius: 10px;
     padding: 10px;
+    background-color: #303030;
 }
 .card img{
     width: 100%;
@@ -125,10 +130,10 @@ footer{
     justify-content: flex-start;
     align-items: center;
     color: #F2F2F2;
-    height: 250px;
+    height: 225px;
 }
 .contacto{
-    width: 30%;
+    width: 20%;
     display: flex;
     justify-content: center;
 }
