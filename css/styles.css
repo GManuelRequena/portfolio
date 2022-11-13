@@ -5,11 +5,14 @@ body{
 header{
     height: 65px;
     /* background-color: #7b1fa2; */
-    background-image: linear-gradient(#791586, #000023);
+    background-color: #11558A;
+    /* background-image: linear-gradient(#791586, #000023); */
+    /* background-image: linear-gradient(#192150, #1C4693); */
     color: white;
     display: flex;
     align-items: center;
     padding-left: 25px;
+    font-size: 27px;
 }
 .cara{
     border-radius: 500px;
@@ -23,7 +26,7 @@ header{
     height: calc(100vh - 65px);
     /* background-color: #303030; */
     color: white;
-    background-image: url("../images/background-about-me.png");
+    background-image: url("../images/background-about-me-2.png");
     /* padding-top: 10%; */
 }
 .caja-central{
@@ -40,7 +43,8 @@ header{
     justify-content: center;
     align-items: center;
     width: 40%;
-    background-color: #424242;
+    /* background-color: #424242; */
+    background-color: #11558A;
 }
 .caja-presentacion{
     display: flex;
@@ -66,8 +70,16 @@ header{
 .aptitudes{
     width: 50%;
 }
-.tech-list{
-    display: flex;
+.tech-list-1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.tech-list-2{
+    display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: space-between;
     padding-top: 10px;
 }
@@ -118,7 +130,7 @@ header{
     width: 100%;
 }
 .card a, footer a {
-    color: white;
+    color: black;
 }
 
 .red-social{
@@ -128,12 +140,13 @@ header{
 }
 
 footer{
-    background-color: #424242;
+    /* background-color: #424242; */
+    background-color: #F2F2F2;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    color: #F2F2F2;
+    color: black;
     height: 225px;
 }
 .contacto{
@@ -186,5 +199,9 @@ footer{
 
 #github-image {
     height: 136.33px;
-    width: 200.625px;
+    width: 150px;
+}
+
+.alert {
+    color: #000;
 }
