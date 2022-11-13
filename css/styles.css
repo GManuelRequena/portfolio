@@ -95,8 +95,8 @@ header{
 .proyectos{
     width: 60%;
     display: flex;
-    /* justify-content: space-between; */
-    justify-content: center;
+    justify-content: space-between;
+    /* justify-content: center; */
 }
 .card{
     text-align: center;
